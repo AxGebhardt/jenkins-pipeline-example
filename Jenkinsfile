@@ -3,7 +3,7 @@
 pipeline {
     agent { label 'ec2' }
     tools {
-        nodejs 'nodejs'
+        nodejs 'node-8.1.3'
     }
     stages {
         stage('Build') {
