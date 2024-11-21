@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
 pipeline {
-    agent agent { label 'ec2' }
+    agent { label 'ec2' }
     tools {
         nodejs 'node-8.1.3'
     }
