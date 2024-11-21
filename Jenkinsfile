@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
 pipeline {
-    agent any
+    agent AWS EC2
     tools {
         nodejs 'node-8.1.3'
     }
